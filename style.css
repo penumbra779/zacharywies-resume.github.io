@@ -149,18 +149,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  .mobile-no-pad {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-  
-  .col-md-6 {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
   body {
     padding: 0;
   }
@@ -170,6 +158,7 @@ body {
     margin: 0 0 10px 0;
     padding: 4px 0 4px 12px;
   }
+  
   .about h3:after,
   .contact h3:after {
     display: none;
@@ -179,5 +168,15 @@ body {
   .contact h3:before {
     right: 0;
     top: -2px;
+  }
+}
+
+@media (min-width: 768px) {
+  .no-pad-l {
+    padding-left: 0;
+  }
+
+  .no-pad-r {
+    padding-right: 0;
   }
 }
